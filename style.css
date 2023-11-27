@@ -1,0 +1,49 @@
+
+
+p{
+   background-color: cornsilk; 
+   /*line-height:20% ;*/
+}
+#para {
+    padding: 200;
+    background-color: brown;
+    color: bisque;
+}
+body {
+    background-image: url("Images/download (2).jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  p.center {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px rgb(177, 141, 141);
+  }
+  /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+h1{
+  position:static;
+}
